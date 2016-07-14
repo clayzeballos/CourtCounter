@@ -9,6 +9,7 @@
         android:orientation="horizontal">
 
         // Layout do Time A
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,6 +30,7 @@
                 android:id="@+id/pontos_time_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="24dp"
                 android:text="0"
@@ -71,6 +73,7 @@
             android:background="@android:color/darker_gray" />
 
         // Layout do Time B
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -102,6 +105,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:fontFamily="sans-serif-light"
                 android:onClick="marcaTresTimeB"
                 android:text="+3 Pontos" />
 
@@ -124,6 +128,7 @@
                 android:text="Lance Livre" />
         </LinearLayout>
     </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -131,5 +136,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="resetaTudo"
-        android:text="RESET"/>
+        android:text="RESET" />
 </RelativeLayout>
